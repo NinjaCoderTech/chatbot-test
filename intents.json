@@ -1,0 +1,47 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day",
+                "Whats up"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Tesla Bot.",
+                "I'm Tesla Bot!",
+                "I'm Tesla Bot, your Tesla helper!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "shop",
+            "patterns": [
+                "i would like to buy a car",
+                "what do you sell",
+                "i want a car"
+            ],
+            "responses": [
+                "Here is a list of what we sell.\n 1. Model S\n 2. Model 3\n 3. Model X\n 4. Model Y\n 5. Cybertruck"
+            ],
+            "context_set": ""
+        }
+    ]
+}
